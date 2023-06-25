@@ -42,4 +42,12 @@ public class SignupRequest {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public Set<String> getRoles() {
+        return this.roles;
+    }
+
+    public void setRole(Set<String> roles) {
+        this.roles = roles;
+    }
 }
